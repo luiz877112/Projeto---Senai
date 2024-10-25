@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url('https://blog.quantosobra.com.br/static/456641c9c56a565aaa2d766652233214/40f67/cadastro-de-vendas.webp');
+    background-size: cover;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.749);
+    width: 30rem;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+input[type="submit"] {
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    width: 10rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: rgba(0, 0, 255, 0.803);
+color: #fff;
+}

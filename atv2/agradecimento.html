@@ -1,0 +1,36 @@
+<!-- agradecimento.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+   <div id="mensagem">
+       <br><br>
+       <h1>Obrigado pela inscrição! Tamo junto!<br> 
+       </h1>
+   </div>
+</body>
+</html>
+
+<!-- 
+    Código SQL:------------------------------------------------------------------------------------
+
+CREATE DATABASE bd_atv_02;
+USE bd_atv_02;
+
+CREATE TABLE tb_cadastro (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    data_nascimento DATE NOT NULL,
+    salario DECIMAL(10, 2) NOT NULL,
+    sexo ENUM('Masculino', 'Feminino', 'Prefiro não dizer') NOT NULL,
+    cargo ENUM('Analista de TI', 'Gestor de TI', 'Desenvolvedor Frontend', 'Desenvolvedor Backend', 'Desenvolvedor FullStack') NOT NULL
+);
+
+SELECT * FROM tb_cadastro;
+
+-->
